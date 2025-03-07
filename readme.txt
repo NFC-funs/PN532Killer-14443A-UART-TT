@@ -1,17 +1,3 @@
 20250307：
-1、14443A命令实现
-2、实现GET_VERSION  READ
-
-20250303：
-1、UART收发OK
-
-20250302：
-1、增加Ntag模拟，搭好框架，待完成
-
-20250226：
-1、UART接收OK，超时设定为2 bytes时间
-
-20250225:
-1、UART-PN532Killer初始版本
-2、UART-PN532Killer用于通过UART操作PN532Killer，模拟14443A卡片
-3、主频339MHz，UART波特率12020400；发送数据PN532Killer接收OK
+1、14443A UART  transparent transmission
+2、Ntag21x Command support: GET_VERSION  READ
