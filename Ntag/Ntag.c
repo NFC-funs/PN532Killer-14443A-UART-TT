@@ -133,7 +133,7 @@ void __not_in_flash_func(X_Ntag_Emul)()
 		//return;
 	}
 	// get version - 0x60
-	else if (receivedCmd_len == 3 && (trans_data[3] == NTAG_CMD_GET_VERSION))
+	else if (receivedCmd_len == 3 && (recv_data[3] == NTAG_CMD_GET_VERSION))
 	{
 		trans_data[0] = Ntag215_Version[0];
 		trans_data[1] = Ntag215_Version[1];
